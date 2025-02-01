@@ -1,0 +1,99 @@
+/* src/components/Signup.css */
+
+.signup-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* Center-align content horizontally */
+}
+
+.error-message {
+    color: red;
+    text-align: left;
+}
+
+.signup-heading {
+    color: #333;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.signup-form {
+    display: flex;
+    flex-wrap: wrap;
+    /* Use flex-wrap to allow items to wrap to the next line */
+}
+
+.signup-group {
+    width: calc(50% - 10px);
+    /* Set width to 50% minus margin for spacing */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+    margin-bottom: 15px;
+}
+
+.signup-input {
+    width: 100%;
+    /* Subtract padding and border from the width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    /* Add margin-bottom for spacing */
+}
+
+.signup-button {
+    width: 100%;
+    /* Subtract padding and border from the width */
+    padding: 10px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #2980b9;
+}
+
+.already-registered {
+    margin-top: 15px;
+    text-align: center;
+    /* Center-align text */
+}
+
+.signup-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+.signup-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    /* Change the color as needed */
+}
+
+.signup-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Add space between columns */
+}

@@ -1,0 +1,62 @@
+/* Dashboard.css */
+
+.bb {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #e9ecef;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('background_sea.jpg') center/cover fixed no-repeat;
+}
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #f8f9fa; */
+    /* border-radius: 0.25rem; */
+    /* width: 1000px; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 1rem;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    /* Adjusted to stack items vertically */
+    gap: 1rem;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+button {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}

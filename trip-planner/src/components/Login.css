@@ -1,0 +1,82 @@
+/* src/components/login.css */
+
+.login-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* Center-align content horizontally */
+}
+
+.login-heading {
+    color: #333;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.login-group {
+    width: 100%;
+    /* Make input group full width */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+    margin-bottom: 15px;
+}
+
+.login-input {
+    width: 100%;
+    /* Subtract padding and border from the width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    /* Add margin-bottom for spacing */
+}
+
+.login-button {
+    width: 100%;
+    /* Subtract padding and border from the width */
+    padding: 10px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #2980b9;
+}
+
+.already-registered {
+    margin-top: 15px;
+    text-align: center;
+    /* Center-align text */
+
+}
+
+.login-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+.login-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    /* Change the color as needed */
+}
